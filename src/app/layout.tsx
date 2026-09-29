@@ -27,6 +27,14 @@ export const metadata: Metadata = {
     description: "캠핑장작 혁명의 시작. 국내 최대규모 생산설비의 프리미엄 캠핑장작.",
     type: "website",
     locale: "ko_KR",
+    images: [
+      {
+        url: "https://jangjak.vercel.app/images/products/tongnamu-product.png",
+        width: 1200,
+        height: 630,
+        alt: "장작혁명 통나무 캠핑장작",
+      },
+    ],
   },
 };
 
