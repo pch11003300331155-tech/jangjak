@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --font-noto: "Noto Sans KR", sans-serif;
+  --bg-dark: #0C0B0A;
+  --bg-cream: #F5EDE0;
+  --accent-orange: #D4611B;
+  --accent-gold: #C9810A;
+  --text-dark: #1A1108;
+}
+
+@theme inline {
+  --font-sans: var(--font-noto);
+  --color-brand-dark: #0C0B0A;
+  --color-brand-cream: #F5EDE0;
+  --color-brand-orange: #D4611B;
+  --color-brand-gold: #C9810A;
+  --color-brand-text: #1A1108;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-noto), sans-serif;
+  background: var(--bg-dark);
+  color: #ffffff;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
