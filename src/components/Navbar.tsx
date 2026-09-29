@@ -39,7 +39,7 @@ export default function Navbar() {
             alt="장작혁명"
             width={120}
             height={48}
-            className="object-contain"
+            className="object-contain h-8 md:h-12 w-auto"
             style={{ mixBlendMode: "screen", filter: "brightness(1.2)" }}
             priority
           />
