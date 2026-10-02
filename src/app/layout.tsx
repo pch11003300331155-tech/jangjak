@@ -10,6 +10,7 @@ const notoSansKR = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://캠핑장작.com"),
   title: "장작혁명 | 프리미엄 캠핑장작",
   description:
     "캠핑장작 혁명의 시작. 국내 최대규모 생산설비와 10일간 가마건조로 만들어진 프리미엄 캠핑장작. 캠핑 불멍과 화목난로 모두 사용 가능.",
@@ -22,14 +23,18 @@ export const metadata: Metadata = {
     "프리미엄장작",
     "캠핑",
   ],
+  alternates: {
+    canonical: "https://캠핑장작.com",
+  },
   openGraph: {
     title: "장작혁명 | 프리미엄 캠핑장작",
     description: "캠핑장작 혁명의 시작. 국내 최대규모 생산설비의 프리미엄 캠핑장작.",
     type: "website",
+    url: "https://캠핑장작.com",
     locale: "ko_KR",
     images: [
       {
-        url: "https://jangjak.vercel.app/images/products/tongnamu-product.png",
+        url: "https://캠핑장작.com/images/products/tongnamu-product.png",
         width: 1200,
         height: 630,
         alt: "장작혁명 통나무 캠핑장작",
