@@ -10,6 +10,11 @@ const notoSansKR = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
+  verification: {
+    other: {
+      "naver-site-verification": "06fe3ebd493552b021c109381f8fa82954e50cde",
+    },
+  },
   metadataBase: new URL("https://캠핑장작.com"),
   title: "장작혁명 | 프리미엄 캠핑장작",
   description:
